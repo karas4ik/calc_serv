@@ -1,3 +1,4 @@
+
 |----------------------------------|-------------------------------------------------------|
 | Submit Arithmetic Expression      | Users can send expressions for computation.          |
 | Get Expression Status             | Users can query the status of their submitted expressions. |
