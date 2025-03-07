@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб Часть Проекта</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Арифметический Калькулятор</h1>
+        <nav>
+            <a href="#calculate">Добавить Выражение</a>
+            <a href="#expressions">Список Выражений</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="calculate">
+            <h2>Добавить Выражение</h2>
+            <form id="calc-form">
+                <input type="text" id="expression" placeholder="Введите выражение (например, 2 + 2)" required>
+                <button type="submit">Вычислить</button>
+            </form>
+            <div id="result"></div>
+        </section>
+
+        <section id="expressions">
+            <h2>Список Выражений</h2>
+            <ul id="expressions-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ваше Имя. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
